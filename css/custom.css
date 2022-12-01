@@ -1,0 +1,14 @@
+body {
+    cursor: url(https://www.rhzhz.cn/wp-content/uploads/2022/08/meme-pop-cat-cursor.png), auto;
+}
+
+.hide-block>.hide-button.open,
+.hide-inline>.hide-button.open {
+    display: block
+}
+
+a,
+button,
+img {
+    cursor: url(https://www.rhzhz.cn/wp-content/uploads/2022/08/meme-pop-cat-pointer.png), auto
+}
