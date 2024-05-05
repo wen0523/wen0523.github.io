@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- RSS 2.0 格式 -->
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <!-- 频道信息 -->
+    <channel>
+        <!-- 博客标题 -->
+        <title>Wen's Blog</title>
+        <!-- 博客链接 -->
+        <link>http://localhost:1313/about/</link>
+        <!-- 博客描述 -->
+        <description>Wen's blog</description>
+        <!-- 使用的语言 -->
+        <language>zh-CN</language>
+        <!-- 最后构建日期 -->
+        <lastBuildDate>Tue, 05 May 2024 00:00:00 GMT</lastBuildDate>
+        <!-- 当前 XML 文件的链接 -->
+        <atom:link href="http://localhost:1313/about/index.xml" rel="self" type="application/rss+xml" />
+        <!-- 文章项
+        <item>
+            <!-- 文章标题 -
+            <title>About</title>
+            <!-- 文章链接 --
+            <link>http://localhost:1313/about/</link>
+            <!-- 文章描述 --
+            <description>Wen's blog</description>
+            <!-- 文章发布日期 --
+            <pubDate>Tue, 05 May 2024 00:00:00 GMT</pubDate>
+            <!-- 文章的唯一标识符 --
+            <guid>http://localhost:1313/about/</guid>
+        </item>
+        -->
+    </channel>
+</rss>

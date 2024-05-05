@@ -1,7 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Tags - Tag - Wen&#39;s blog</title>
-        <link>http://example.org/tags/</link>
+        <link>http://localhost:1313/tags/</link>
         <description>Tags - Tag - Wen&#39;s blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><atom:link href="http://example.org/tags/" rel="self" type="application/rss+xml" /></channel>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 02 May 2024 09:26:04 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/tags/" rel="self" type="application/rss+xml" /><item>
+    <title>Python</title>
+    <link>http://localhost:1313/tags/python/</link>
+    <pubDate>Thu, 02 May 2024 09:26:04 &#43;0800</pubDate>
+    <author>Wen</author>
+    <guid>http://localhost:1313/tags/python/</guid>
+    <description><![CDATA[]]></description>
+</item>
+</channel>
 </rss>
