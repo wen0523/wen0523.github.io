@@ -2,11 +2,11 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
-            <loc>http://localhost:1313/friend/</loc><lastmod>2024-05-06T11:09:35&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/</loc><lastmod>2024-05-06T11:09:35&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/categories/</loc><lastmod>2024-05-02T09:26:04&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/posts/first_post/</loc><lastmod>2024-05-02T09:26:04&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/posts/</loc><lastmod>2024-05-02T09:26:04&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/categories/pthon/</loc><lastmod>2024-05-02T09:26:04&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/tags/python/</loc><lastmod>2024-05-02T09:26:04&#43;08:00</lastmod></url><url>
-            <loc>http://localhost:1313/tags/</loc><lastmod>2024-05-02T09:26:04&#43;08:00</lastmod></url></urlset>
+            <loc>http://example.org/friend/</loc><lastmod>2024-05-06T11:09:35&#43;08:00</lastmod></url><url>
+            <loc>http://example.org/</loc><lastmod>2024-05-06T11:09:35&#43;08:00</lastmod></url><url>
+            <loc>http://example.org/categories/</loc><lastmod>2024-05-02T09:26:04&#43;08:00</lastmod></url><url>
+            <loc>http://example.org/posts/first_post/</loc><lastmod>2024-05-02T09:26:04&#43;08:00</lastmod></url><url>
+            <loc>http://example.org/posts/</loc><lastmod>2024-05-02T09:26:04&#43;08:00</lastmod></url><url>
+            <loc>http://example.org/categories/pthon/</loc><lastmod>2024-05-02T09:26:04&#43;08:00</lastmod></url><url>
+            <loc>http://example.org/tags/python/</loc><lastmod>2024-05-02T09:26:04&#43;08:00</lastmod></url><url>
+            <loc>http://example.org/tags/</loc><lastmod>2024-05-02T09:26:04&#43;08:00</lastmod></url></urlset>
