@@ -1,7 +1,15 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
-        <title>All Posts - 我的全新 Hugo 网站</title>
-        <link>http://localhost:1313/posts/</link>
-        <description>All Posts | 我的全新 Hugo 网站</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 04 Jul 2024 14:32:59 &#43;0800</lastBuildDate><atom:link href="http://localhost:1313/posts/" rel="self" type="application/rss+xml" /></channel>
+        <title>All Posts - Wen&#39;s Blog</title>
+        <link>http://example.org/posts/</link>
+        <description>All Posts | Wen&#39;s Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Thu, 04 Jul 2024 14:32:59 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>First_post</title>
+    <link>http://example.org/first_post/</link>
+    <pubDate>Thu, 04 Jul 2024 14:32:59 &#43;0800</pubDate>
+    <author>Wen</author>
+    <guid>http://example.org/first_post/</guid>
+    <description><![CDATA[First_post 你好，这是我的第一篇博客。]]></description>
+</item>
+</channel>
 </rss>
