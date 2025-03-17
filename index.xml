@@ -9,9 +9,10 @@
     <title>First_post</title>
     <link>http://example.org/first_post/</link>
     <pubDate>Thu, 04 Jul 2024 14:32:59 &#43;0800</pubDate>
-    <author>Wen</author>
+    <author>Author</author>
     <guid>http://example.org/first_post/</guid>
-    <description><![CDATA[First_post 你好，这是我的第一篇博客。]]></description>
+    <description><![CDATA[<h1 id="first_post">First_post</h1>
+<p>你好，这是我的第一篇博客。</p>]]></description>
 </item>
 </channel>
 </rss>
