@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
-        <title>Vue3组合式API详解 - Wen&#39;s Blog</title><meta name="Description" content="Wen&#39;s Blog"><meta property="og:url" content="http://localhost:1313/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/">
+        <title>Vue3组合式API详解 - Wen&#39;s Blog</title><meta name="Description" content="Wen&#39;s Blog"><meta property="og:url" content="http://example.org/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/">
   <meta property="og:site_name" content="Wen&#39;s Blog">
   <meta property="og:title" content="Vue3组合式API详解">
   <meta property="og:description" content="Vue3组合式API详解 概述 Vue3组合式API（Composition API）是一种新的组织组件逻辑的方式，它提供更灵活、更强大的代码组织方式，特别适合复杂组件和逻辑复用。与传统的Options API相比，组合式API让相关逻辑可以集中在一起，提高了代码的可维护性和复用性。">
@@ -15,16 +15,16 @@
     <meta property="article:modified_time" content="2024-08-12T10:00:00+08:00">
     <meta property="article:tag" content="Web前端">
     <meta property="article:tag" content="Vue3">
-    <meta property="og:image" content="http://localhost:1313/logo.png">
+    <meta property="og:image" content="http://example.org/logo.png">
 
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:image" content="http://localhost:1313/logo.png">
+  <meta name="twitter:image" content="http://example.org/logo.png">
   <meta name="twitter:title" content="Vue3组合式API详解">
   <meta name="twitter:description" content="Vue3组合式API详解 概述 Vue3组合式API（Composition API）是一种新的组织组件逻辑的方式，它提供更灵活、更强大的代码组织方式，特别适合复杂组件和逻辑复用。与传统的Options API相比，组合式API让相关逻辑可以集中在一起，提高了代码的可维护性和复用性。">
 <meta name="application-name" content="我的网站">
 <meta name="apple-mobile-web-app-title" content="我的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
         <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/" /><link rel="prev" href="http://localhost:1313/09-vue3%E7%BB%84%E4%BB%B6%E5%9F%BA%E7%A1%80%E8%AF%A6%E8%A7%A3/" /><link rel="next" href="http://localhost:1313/11-vue3%E8%B7%AF%E7%94%B1%E8%AF%A6%E8%A7%A3/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://example.org/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/" /><link rel="prev" href="http://example.org/09-vue3%E7%BB%84%E4%BB%B6%E5%9F%BA%E7%A1%80%E8%AF%A6%E8%A7%A3/" /><link rel="next" href="http://example.org/11-vue3%E8%B7%AF%E7%94%B1%E8%AF%A6%E8%A7%A3/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
         <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
     {
@@ -34,9 +34,9 @@
         "inLanguage": "zh-CN",
         "mainEntityOfPage": {
             "@type": "WebPage",
-            "@id": "http:\/\/localhost:1313\/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3\/"
+            "@id": "http:\/\/example.org\/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3\/"
         },"genre": "posts","keywords": "Web前端, Vue3","wordcount":  15113 ,
-        "url": "http:\/\/localhost:1313\/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3\/","datePublished": "2024-08-12T10:00:00+08:00","dateModified": "2024-08-12T10:00:00+08:00","publisher": {
+        "url": "http:\/\/example.org\/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3\/","datePublished": "2024-08-12T10:00:00+08:00","dateModified": "2024-08-12T10:00:00+08:00","publisher": {
             "@type": "Organization",
             "name": ""},"author": {
                 "@type": "Person",
@@ -4470,7 +4470,7 @@
                             <a class="link-to-markdown" href="/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/index.md" target="_blank">Read Markdown</a>
                         </span></div>
             <div class="post-info-share">
-                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://localhost:1313/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/" data-title="Vue3组合式API详解" data-hashtags="Web前端,Vue3"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/" data-hashtag="Web前端"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/" data-title="Vue3组合式API详解"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:1313/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/" data-title="Vue3组合式API详解"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/" data-title="Vue3组合式API详解"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://example.org/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/" data-title="Vue3组合式API详解" data-hashtags="Web前端,Vue3"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://example.org/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/" data-hashtag="Web前端"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://example.org/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/" data-title="Vue3组合式API详解"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://example.org/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/" data-title="Vue3组合式API详解"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://example.org/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/" data-title="Vue3组合式API详解"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
             </div>
         </div>
     </div>
