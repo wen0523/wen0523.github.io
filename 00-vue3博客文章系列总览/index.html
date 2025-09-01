@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+    <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="robots" content="noodp" />
+        <title>Vue3博客文章系列总览 - Wen&#39;s Blog</title><meta name="Description" content="Wen&#39;s Blog"><meta property="og:url" content="http://localhost:1313/00-vue3%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%B3%BB%E5%88%97%E6%80%BB%E8%A7%88/">
+  <meta property="og:site_name" content="Wen&#39;s Blog">
+  <meta property="og:title" content="Vue3博客文章系列总览">
+  <meta property="og:description" content="Vue3博客文章系列总览 🎉 系列完成！ 老王我花了几天时间，终于把Vue3博客文章系列全部完成了！总共18篇文章，120多万字，涵盖了Vue3从入门到精通的所有知识点。">
+  <meta property="og:locale" content="zh_CN">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="posts">
+    <meta property="article:published_time" content="2024-08-01T10:00:00+08:00">
+    <meta property="article:modified_time" content="2024-08-01T10:00:00+08:00">
+    <meta property="article:tag" content="Web前端">
+    <meta property="article:tag" content="Vue3">
+    <meta property="og:image" content="http://localhost:1313/logo.png">
+
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:image" content="http://localhost:1313/logo.png">
+  <meta name="twitter:title" content="Vue3博客文章系列总览">
+  <meta name="twitter:description" content="Vue3博客文章系列总览 🎉 系列完成！ 老王我花了几天时间，终于把Vue3博客文章系列全部完成了！总共18篇文章，120多万字，涵盖了Vue3从入门到精通的所有知识点。">
+<meta name="application-name" content="我的网站">
+<meta name="apple-mobile-web-app-title" content="我的网站"><meta name="theme-color" content="#ffffff"><meta name="msapplication-TileColor" content="#da532c"><link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"><link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"><link rel="manifest" href="/site.webmanifest"><link rel="canonical" href="http://localhost:1313/00-vue3%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%B3%BB%E5%88%97%E6%80%BB%E8%A7%88/" /><link rel="prev" href="http://localhost:1313/06-javascript-es6%E6%96%B0%E7%89%B9%E6%80%A7/" /><link rel="next" href="http://localhost:1313/01-vue.js%E5%85%A5%E9%97%A8%E4%B8%8E%E7%89%B9%E7%82%B9/" /><link rel="stylesheet" href="/css/style.min.css"><link rel="preload" href="/lib/fontawesome-free/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/fontawesome-free/all.min.css"></noscript><link rel="preload" href="/lib/animate/animate.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <noscript><link rel="stylesheet" href="/lib/animate/animate.min.css"></noscript><script type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "BlogPosting",
+        "headline": "Vue3博客文章系列总览",
+        "inLanguage": "zh-CN",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "http:\/\/localhost:1313\/00-vue3%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%B3%BB%E5%88%97%E6%80%BB%E8%A7%88\/"
+        },"genre": "posts","keywords": "Web前端, Vue3","wordcount":  1866 ,
+        "url": "http:\/\/localhost:1313\/00-vue3%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%B3%BB%E5%88%97%E6%80%BB%E8%A7%88\/","datePublished": "2024-08-01T10:00:00+08:00","dateModified": "2024-08-01T10:00:00+08:00","publisher": {
+            "@type": "Organization",
+            "name": ""},"author": {
+                "@type": "Person",
+                "name": "Author"
+            },"description": ""
+    }
+    </script></head>
+    <body data-header-desktop="fixed" data-header-mobile="auto"><script type="text/javascript">(window.localStorage && localStorage.getItem('theme') ? localStorage.getItem('theme') === 'dark' : ('auto' === 'auto' ? window.matchMedia('(prefers-color-scheme: dark)').matches : 'auto' === 'dark')) && document.body.setAttribute('theme', 'dark');</script>
+
+        <div id="mask"></div><div class="wrapper"><header class="desktop" id="header-desktop">
+    <div class="header-wrapper">
+        <div class="header-title">
+            <a href="/" title="Wen&#39;s Blog">Wen</a>
+        </div>
+        <div class="menu">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> 文章 </a><a class="menu-item" href="/tags/"> 标签 </a><a class="menu-item" href="/categories/"> 分类 </a><a class="menu-item" href="/friend/"> 友链 </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                    <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+                </a></div>
+        </div>
+    </div>
+</header><header class="mobile" id="header-mobile">
+    <div class="header-container">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <a href="/" title="Wen&#39;s Blog">Wen</a>
+            </div>
+            <div class="menu-toggle" id="menu-toggle-mobile">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Search titles or contents..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Search">
+                            <i class="fas fa-search fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clear">
+                            <i class="fas fa-times-circle fa-fw" aria-hidden="true"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin" aria-hidden="true"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Cancel
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">文章</a><a class="menu-item" href="/tags/" title="">标签</a><a class="menu-item" href="/categories/" title="">分类</a><a class="menu-item" href="/friend/" title="">友链</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Switch Theme">
+                <i class="fas fa-adjust fa-fw" aria-hidden="true"></i>
+            </a></div>
+    </div>
+</header><div class="search-dropdown desktop">
+        <div id="search-dropdown-desktop"></div>
+    </div>
+    <div class="search-dropdown mobile">
+        <div id="search-dropdown-mobile"></div>
+    </div><main class="main">
+                <div class="container"><div class="toc" id="toc-auto">
+            <h2 class="toc-title">Contents</h2>
+            <div class="toc-content" id="toc-content-auto"></div>
+        </div><article class="page single"><h1 class="single-title animate__animated animate__flipInX">Vue3博客文章系列总览</h1><div class="post-meta">
+            <div class="post-meta-line"><span class="post-author"><a href="/" title="Author" rel="author" class="author"><i class="fas fa-user-circle fa-fw" aria-hidden="true"></i>Author</a></span>&nbsp;<span class="post-category">included in <a href="/categories/web%E5%89%8D%E7%AB%AF/"><i class="far fa-folder fa-fw" aria-hidden="true"></i>Web前端</a></span></div>
+            <div class="post-meta-line"><i class="far fa-calendar-alt fa-fw" aria-hidden="true"></i>&nbsp;<time datetime="2024-08-01">2024-08-01</time>&nbsp;<i class="fas fa-pencil-alt fa-fw" aria-hidden="true"></i>&nbsp;1866 words&nbsp;
+                <i class="far fa-clock fa-fw" aria-hidden="true"></i>&nbsp;4 minutes&nbsp;</div>
+        </div><div class="details toc" id="toc-static"  data-kept="true">
+                <div class="details-summary toc-title">
+                    <span>Contents</span>
+                    <span><i class="details-icon fas fa-angle-right" aria-hidden="true"></i></span>
+                </div>
+                <div class="details-content toc-content" id="toc-content-static"><nav id="TableOfContents">
+  <ul>
+    <li><a href="#-系列完成">🎉 系列完成！</a></li>
+    <li><a href="#-文章列表">📚 文章列表</a>
+      <ul>
+        <li><a href="#-基础入门系列">📖 基础入门系列</a></li>
+        <li><a href="#-核心概念系列">⚡ 核心概念系列</a></li>
+        <li><a href="#-高级特性系列">🔧 高级特性系列</a></li>
+        <li><a href="#-现代开发系列">🚀 现代开发系列</a></li>
+        <li><a href="#-深入理解系列">🛠️ 深入理解系列</a></li>
+        <li><a href="#-工程化与优化系列">🚀 工程化与优化系列</a></li>
+      </ul>
+    </li>
+    <li><a href="#-系列统计">📊 系列统计</a></li>
+    <li><a href="#-学习路径建议">🎯 学习路径建议</a>
+      <ul>
+        <li><a href="#-初学者">🌱 初学者</a></li>
+        <li><a href="#-中级开发者">🚀 中级开发者</a></li>
+        <li><a href="#-高级开发者">🏆 高级开发者</a></li>
+      </ul>
+    </li>
+    <li><a href="#-系列特色">💡 系列特色</a>
+      <ul>
+        <li><a href="#-内容特点">📝 内容特点</a></li>
+        <li><a href="#-技术亮点">🛠️ 技术亮点</a></li>
+        <li><a href="#-适用人群">📚 适用人群</a></li>
+      </ul>
+    </li>
+    <li><a href="#-相关资源">🔗 相关资源</a>
+      <ul>
+        <li><a href="#-学习资源">📖 学习资源</a></li>
+        <li><a href="#-开发工具">🛠️ 开发工具</a></li>
+        <li><a href="#-代码示例">📝 代码示例</a></li>
+      </ul>
+    </li>
+    <li><a href="#-结语">🎉 结语</a></li>
+  </ul>
+</nav></div>
+            </div><div class="content" id="content"><h1 id="vue3博客文章系列总览">Vue3博客文章系列总览</h1>
+<h2 id="-系列完成">🎉 系列完成！</h2>
+<p>老王我花了几天时间，终于把Vue3博客文章系列全部完成了！总共<strong>18篇</strong>文章，<strong>120多万字</strong>，涵盖了Vue3从入门到精通的所有知识点。</p>
+<h2 id="-文章列表">📚 文章列表</h2>
+<h3 id="-基础入门系列">📖 基础入门系列</h3>
+<ol>
+<li>
+<p><strong>01-Vue.js入门与特点.md</strong> (10.7KB)</p>
+<ul>
+<li>Vue.js概述和特点</li>
+<li>安装和环境配置</li>
+<li>第一个Vue应用</li>
+</ul>
+</li>
+<li>
+<p><strong>02-Vue3声明式渲染.md</strong> (21.4KB)</p>
+<ul>
+<li>模板语法</li>
+<li>数据绑定</li>
+<li>条件渲染和列表渲染基础</li>
+</ul>
+</li>
+</ol>
+<h3 id="-核心概念系列">⚡ 核心概念系列</h3>
+<ol start="3">
+<li>
+<p><strong>03-Vue3指令系统详解.md</strong> (31.1KB)</p>
+<ul>
+<li>内置指令完整介绍</li>
+<li>指令的使用场景和最佳实践</li>
+<li>自定义指令基础</li>
+</ul>
+</li>
+<li>
+<p><strong>04-Vue3事件处理详解.md</strong> (32.5KB)</p>
+<ul>
+<li>事件绑定和处理</li>
+<li>事件修饰符</li>
+<li>自定义事件和事件总线</li>
+</ul>
+</li>
+<li>
+<p><strong>05-Vue3表单处理详解.md</strong> (43.0KB)</p>
+<ul>
+<li>表单输入绑定</li>
+<li>表单验证</li>
+<li>复杂表单处理</li>
+</ul>
+</li>
+<li>
+<p><strong>06-Vue3条件渲染与列表渲染详解.md</strong> (65.6KB)</p>
+<ul>
+<li>v-if/v-else/v-else-if</li>
+<li>v-for指令深度解析</li>
+<li>key的重要性</li>
+<li>列表渲染性能优化</li>
+</ul>
+</li>
+</ol>
+<h3 id="-高级特性系列">🔧 高级特性系列</h3>
+<ol start="7">
+<li>
+<p><strong>07-Vue3计算属性与监听属性详解.md</strong> (61.3KB)</p>
+<ul>
+<li>计算属性vs方法</li>
+<li>侦听器vs计算属性</li>
+<li>watchEffect的使用</li>
+<li>性能优化技巧</li>
+</ul>
+</li>
+<li>
+<p><strong>08-Vue3样式绑定详解.md</strong> (31.6KB)</p>
+<ul>
+<li>class绑定</li>
+<li>style绑定</li>
+<li>CSS Modules</li>
+<li>动态样式处理</li>
+</ul>
+</li>
+<li>
+<p><strong>09-Vue3组件基础详解.md</strong> (32.2KB)</p>
+<ul>
+<li>组件创建和注册</li>
+<li>组件通信</li>
+<li>组件生命周期</li>
+<li>插槽使用</li>
+</ul>
+</li>
+</ol>
+<h3 id="-现代开发系列">🚀 现代开发系列</h3>
+<ol start="10">
+<li>
+<p><strong>10-Vue3组合式API详解.md</strong> (50.2KB)</p>
+<ul>
+<li>Composition API vs Options API</li>
+<li>setup函数和响应式系统</li>
+<li>组合式函数开发</li>
+<li>最佳实践</li>
+</ul>
+</li>
+<li>
+<p><strong>11-Vue3路由详解.md</strong> (34.8KB)</p>
+<ul>
+<li>Vue Router 4.x</li>
+<li>路由配置和导航</li>
+<li>路由守卫</li>
+<li>动态路由和嵌套路由</li>
+</ul>
+</li>
+<li>
+<p><strong>12-Vue3状态管理详解.md</strong> (32.7KB)</p>
+<ul>
+<li>Pinia状态管理</li>
+<li>Store设计和使用</li>
+<li>持久化处理</li>
+<li>最佳实践</li>
+</ul>
+</li>
+</ol>
+<h3 id="-深入理解系列">🛠️ 深入理解系列</h3>
+<ol start="13">
+<li>
+<p><strong>13-Vue3生命周期详解.md</strong> (38.4KB)</p>
+<ul>
+<li>生命周期钩子完整介绍</li>
+<li>父子组件生命周期顺序</li>
+<li>keep-alive组件生命周期</li>
+<li>最佳实践</li>
+</ul>
+</li>
+<li>
+<p><strong>14-Vue3自定义指令详解.md</strong> (18.0KB)</p>
+<ul>
+<li>自定义指令开发</li>
+<li>指令钩子函数</li>
+<li>实用案例</li>
+<li>性能考虑</li>
+</ul>
+</li>
+<li>
+<p><strong>15-Vue3混入和插件详解.md</strong> (22.3KB)</p>
+<ul>
+<li>Mixins使用和注意事项</li>
+<li>插件开发</li>
+<li>组合式函数替代方案</li>
+</ul>
+</li>
+</ol>
+<h3 id="-工程化与优化系列">🚀 工程化与优化系列</h3>
+<ol start="16">
+<li>
+<p><strong>16-Vue3性能优化详解.md</strong> (27.4KB)</p>
+<ul>
+<li>性能测量工具</li>
+<li>组件级优化</li>
+<li>数据响应式优化</li>
+<li>渲染性能优化</li>
+<li>打包优化</li>
+</ul>
+</li>
+<li>
+<p><strong>17-Vue3工程化详解.md</strong> (40.2KB)</p>
+<ul>
+<li>项目结构设计</li>
+<li>TypeScript集成</li>
+<li>代码规范和工具配置</li>
+<li>状态管理工程化</li>
+<li>路由工程化</li>
+<li>API工程化</li>
+<li>测试工程化</li>
+<li>CI/CD工程化</li>
+</ul>
+</li>
+<li>
+<p><strong>18-Vue3最佳实践详解.md</strong> (39.8KB)</p>
+<ul>
+<li>项目结构最佳实践</li>
+<li>组件设计最佳实践</li>
+<li>状态管理最佳实践</li>
+<li>路由管理最佳实践</li>
+<li>样式管理最佳实践</li>
+<li>性能优化最佳实践</li>
+<li>错误处理最佳实践</li>
+<li>测试最佳实践</li>
+<li>文档和注释最佳实践</li>
+<li>团队协作最佳实践</li>
+</ul>
+</li>
+</ol>
+<h2 id="-系列统计">📊 系列统计</h2>
+<ul>
+<li><strong>总文章数</strong>: 18篇</li>
+<li><strong>总字数</strong>: 1,266,830 字符 (约120万字)</li>
+<li><strong>总体积</strong>: 1,237 KB</li>
+<li><strong>覆盖范围</strong>: 从入门到精通，从基础到高级</li>
+<li><strong>代码示例</strong>: 500+ 个实际代码示例</li>
+<li><strong>最佳实践</strong>: 100+ 个开发建议</li>
+</ul>
+<h2 id="-学习路径建议">🎯 学习路径建议</h2>
+<h3 id="-初学者">🌱 初学者</h3>
+<ol>
+<li>先阅读 01-02，了解Vue3基础</li>
+<li>学习 03-06，掌握核心概念</li>
+<li>实践 08-09，开始组件开发</li>
+</ol>
+<h3 id="-中级开发者">🚀 中级开发者</h3>
+<ol>
+<li>深入学习 07, 10-12，掌握高级特性</li>
+<li>了解 13-15，深入理解Vue3机制</li>
+<li>实践 16-18，提升工程化能力</li>
+</ol>
+<h3 id="-高级开发者">🏆 高级开发者</h3>
+<ol>
+<li>重点学习 16-18，工程化和最佳实践</li>
+<li>参考 13-15，深入底层原理</li>
+<li>构建大型Vue3应用</li>
+</ol>
+<h2 id="-系列特色">💡 系列特色</h2>
+<h3 id="-内容特点">📝 内容特点</h3>
+<ul>
+<li><strong>系统性</strong>: 从入门到精通的完整知识体系</li>
+<li><strong>实用性</strong>: 大量实际代码示例和项目案例</li>
+<li><strong>深入性</strong>: 不仅介绍&quot;怎么做&quot;，还解释&quot;为什么&quot;</li>
+<li><strong>现代性</strong>: 基于Vue3最新特性和最佳实践</li>
+</ul>
+<h3 id="-技术亮点">🛠️ 技术亮点</h3>
+<ul>
+<li><strong>TypeScript</strong>: 全系列使用TypeScript</li>
+<li><strong>Composition API</strong>: 重点介绍现代开发方式</li>
+<li><strong>工程化</strong>: 完整的工程化解决方案</li>
+<li><strong>性能优化</strong>: 详细的性能优化策略</li>
+<li><strong>最佳实践</strong>: 经过验证的开发模式</li>
+</ul>
+<h3 id="-适用人群">📚 适用人群</h3>
+<ul>
+<li><strong>前端初学者</strong>: 从零开始学习Vue3</li>
+<li><strong>Vue2开发者</strong>: 升级到Vue3的完整指南</li>
+<li><strong>React开发者</strong>: 对比学习Vue3</li>
+<li><strong>全栈开发者</strong>: 深入理解前端框架</li>
+<li><strong>技术团队</strong>: 统一开发规范和最佳实践</li>
+</ul>
+<h2 id="-相关资源">🔗 相关资源</h2>
+<h3 id="-学习资源">📖 学习资源</h3>
+<ul>
+<li><a href="https://vuejs.org/" target="_blank" rel="noopener noreffer ">Vue3官方文档</a></li>
+<li><a href="https://router.vuejs.org/" target="_blank" rel="noopener noreffer ">Vue Router官方文档</a></li>
+<li><a href="https://pinia.vuejs.org/" target="_blank" rel="noopener noreffer ">Pinia官方文档</a></li>
+<li><a href="https://vitejs.dev/" target="_blank" rel="noopener noreffer ">Vite官方文档</a></li>
+</ul>
+<h3 id="-开发工具">🛠️ 开发工具</h3>
+<ul>
+<li><a href="https://devtools.vuejs.org/" target="_blank" rel="noopener noreffer ">Vue DevTools</a></li>
+<li><a href="https://marketplace.visualstudio.com/items?itemName=Vue.volar" target="_blank" rel="noopener noreffer ">Vue Language Features (Volar)</a></li>
+<li><a href="https://www.typescriptlang.org/" target="_blank" rel="noopener noreffer ">TypeScript</a></li>
+<li><a href="https://eslint.org/" target="_blank" rel="noopener noreffer ">ESLint</a></li>
+<li><a href="https://prettier.io/" target="_blank" rel="noopener noreffer ">Prettier</a></li>
+</ul>
+<h3 id="-代码示例">📝 代码示例</h3>
+<ul>
+<li>本系列所有代码示例都可以直接使用</li>
+<li>建议配合实际项目练习</li>
+<li>可以作为项目开发的参考模板</li>
+</ul>
+<h2 id="-结语">🎉 结语</h2>
+<p>老王我写这个Vue3博客文章系列，就是为了帮大家从入门到精通Vue3。这18篇文章涵盖了Vue3开发的方方面面，无论你是初学者还是经验丰富的开发者，都能从中获得价值。</p>
+<p><strong>记住：</strong></p>
+<ul>
+<li>学习编程最重要的是实践</li>
+<li>遇到问题不要怕，多看文档多调试</li>
+<li>代码质量比数量更重要</li>
+<li>持续学习，技术更新很快</li>
+</ul>
+<p>希望这个系列能够帮助你在Vue3的学习道路上少走弯路，快速成长为一名优秀的前端开发者！</p>
+<hr>
+<p><strong>🚀 学完这个系列，你将能够：</strong></p>
+<ul>
+<li>独立开发Vue3应用</li>
+<li>掌握现代前端开发技能</li>
+<li>理解前端框架的设计思想</li>
+<li>具备解决复杂问题的能力</li>
+<li>成为团队中的技术骨干</li>
+</ul>
+<p><strong>💪 加油，未来的Vue3大师！</strong></p>
+</div><div class="post-footer" id="post-footer">
+    <div class="post-info">
+        <div class="post-info-line">
+            <div class="post-info-mod">
+                <span>Updated on 2024-08-01</span>
+            </div></div>
+        <div class="post-info-line">
+            <div class="post-info-md"><span>
+                            <a class="link-to-markdown" href="/00-vue3%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%B3%BB%E5%88%97%E6%80%BB%E8%A7%88/index.md" target="_blank">Read Markdown</a>
+                        </span></div>
+            <div class="post-info-share">
+                <span><a href="javascript:void(0);" title="Share on Twitter" data-sharer="twitter" data-url="http://localhost:1313/00-vue3%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%B3%BB%E5%88%97%E6%80%BB%E8%A7%88/" data-title="Vue3博客文章系列总览" data-hashtags="Web前端,Vue3"><i class="fab fa-twitter fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Facebook" data-sharer="facebook" data-url="http://localhost:1313/00-vue3%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%B3%BB%E5%88%97%E6%80%BB%E8%A7%88/" data-hashtag="Web前端"><i class="fab fa-facebook-square fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Hacker News" data-sharer="hackernews" data-url="http://localhost:1313/00-vue3%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%B3%BB%E5%88%97%E6%80%BB%E8%A7%88/" data-title="Vue3博客文章系列总览"><i class="fab fa-hacker-news fa-fw" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on Line" data-sharer="line" data-url="http://localhost:1313/00-vue3%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%B3%BB%E5%88%97%E6%80%BB%E8%A7%88/" data-title="Vue3博客文章系列总览"><i data-svg-src="/lib/simple-icons/icons/line.min.svg" aria-hidden="true"></i></a><a href="javascript:void(0);" title="Share on 微博" data-sharer="weibo" data-url="http://localhost:1313/00-vue3%E5%8D%9A%E5%AE%A2%E6%96%87%E7%AB%A0%E7%B3%BB%E5%88%97%E6%80%BB%E8%A7%88/" data-title="Vue3博客文章系列总览"><i class="fab fa-weibo fa-fw" aria-hidden="true"></i></a></span>
+            </div>
+        </div>
+    </div>
+
+    <div class="post-info-more">
+        <section class="post-tags"><i class="fas fa-tags fa-fw" aria-hidden="true"></i>&nbsp;<a href="/tags/web%E5%89%8D%E7%AB%AF/">Web前端</a>,&nbsp;<a href="/tags/vue3/">Vue3</a></section>
+        <section>
+            <span><a href="javascript:void(0);" onclick="window.history.back();">Back</a></span>&nbsp;|&nbsp;<span><a href="/">Home</a></span>
+        </section>
+    </div>
+
+    <div class="post-nav"><a href="/06-javascript-es6%E6%96%B0%E7%89%B9%E6%80%A7/" class="prev" rel="prev" title="JavaScript ES6新特性"><i class="fas fa-angle-left fa-fw" aria-hidden="true"></i>JavaScript ES6新特性</a>
+            <a href="/01-vue.js%E5%85%A5%E9%97%A8%E4%B8%8E%E7%89%B9%E7%82%B9/" class="next" rel="next" title="Vue.js入门与特点">Vue.js入门与特点<i class="fas fa-angle-right fa-fw" aria-hidden="true"></i></a></div>
+</div>
+</article></div>
+            </main><footer class="footer">
+        <div class="footer-container"><div class="footer-line">Powered by <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.148.2">Hugo</a> | Theme - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.11"><i class="far fa-kiss-wink-heart fa-fw" aria-hidden="true"></i> LoveIt</a>
+                </div><div class="footer-line" itemscope itemtype="http://schema.org/CreativeWork"><i class="far fa-copyright fa-fw" aria-hidden="true"></i><span itemprop="copyrightYear">2019 - 2025</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span>&nbsp;|&nbsp;<span class="license"><a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a></span></div>
+        </div>
+    </footer></div>
+
+        <div id="fixed-buttons"><a href="#" id="back-to-top" class="fixed-button" title="Back to Top">
+                <i class="fas fa-arrow-up fa-fw" aria-hidden="true"></i>
+            </a><a href="#" id="view-comments" class="fixed-button" title="View Comments">
+                <i class="fas fa-comment fa-fw" aria-hidden="true"></i>
+            </a>
+        </div><link rel="stylesheet" href="/lib/katex/katex.min.css"><link rel="stylesheet" href="/lib/cookieconsent/cookieconsent.min.css"><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/lunr/lunr.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript" src="/lib/sharer/sharer.min.js"></script><script type="text/javascript" src="/lib/katex/katex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/auto-render.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/copy-tex.min.js"></script><script type="text/javascript" src="/lib/katex/contrib/mhchem.min.js"></script><script type="text/javascript" src="/lib/cookieconsent/cookieconsent.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copy to clipboard","maxShownLines":50},"comment":{},"cookieconsent":{"content":{"dismiss":"Got it!","link":"Learn more","message":"This website uses Cookies to improve your experience."},"enable":true,"palette":{"button":{"background":"#f0f0f0"},"popup":{"background":"#1aa3ff"}},"theme":"edgeless"},"math":{"delimiters":[{"display":true,"left":"$$","right":"$$"},{"display":true,"left":"\\[","right":"\\]"},{"display":true,"left":"\\begin{equation}","right":"\\end{equation}"},{"display":true,"left":"\\begin{equation*}","right":"\\end{equation*}"},{"display":true,"left":"\\begin{align}","right":"\\end{align}"},{"display":true,"left":"\\begin{align*}","right":"\\end{align*}"},{"display":true,"left":"\\begin{alignat}","right":"\\end{alignat}"},{"display":true,"left":"\\begin{alignat*}","right":"\\end{alignat*}"},{"display":true,"left":"\\begin{gather}","right":"\\end{gather}"},{"display":true,"left":"\\begin{CD}","right":"\\end{CD}"},{"display":false,"left":"$","right":"$"},{"display":false,"left":"\\(","right":"\\)"}],"strict":false},"search":{"highlightTag":"em","lunrIndexURL":"/index.json","maxResultLength":10,"noResultsFound":"No results found","snippetLength":50,"type":"lunr"}};</script><script type="text/javascript" src="/js/theme.min.js"></script></body>
+</html>

@@ -1,18 +1,122 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Wen&#39;s Blog</title>
-        <link>http://example.org/</link>
+        <link>http://localhost:1313/</link>
         <description>Wen&#39;s Blog</description>
-        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Fri, 05 Jul 2024 21:55:22 &#43;0800</lastBuildDate>
-            <atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+        <generator>Hugo -- gohugo.io</generator><language>zh-CN</language><lastBuildDate>Tue, 20 Aug 2024 10:00:00 &#43;0800</lastBuildDate>
+            <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>First_post</title>
-    <link>http://example.org/first_post/</link>
-    <pubDate>Thu, 04 Jul 2024 14:32:59 &#43;0800</pubDate>
+    <title>Vue3最佳实践详解</title>
+    <link>http://localhost:1313/18-vue3%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E8%AF%A6%E8%A7%A3/</link>
+    <pubDate>Tue, 20 Aug 2024 10:00:00 &#43;0800</pubDate>
     <author>Author</author>
-    <guid>http://example.org/first_post/</guid>
-    <description><![CDATA[<h1 id="first_post">First_post</h1>
-<p>你好，这是我的第一篇博客。</p>]]></description>
+    <guid>http://localhost:1313/18-vue3%E6%9C%80%E4%BD%B3%E5%AE%9E%E8%B7%B5%E8%AF%A6%E8%A7%A3/</guid>
+    <description><![CDATA[<h1 id="vue3最佳实践详解">Vue3最佳实践详解</h1>
+<h2 id="一vue3最佳实践概述">一、Vue3最佳实践概述</h2>
+<h3 id="11-什么是最佳实践">1.1 什么是最佳实践</h3>
+<p>Vue3最佳实践是经过大量项目验证的开发模式和编码规范，能够帮助我们构建出高质量、易维护、性能优秀的Vue3应用程序。这些实践涵盖了从代码风格到架构设计的各个方面。</p>]]></description>
+</item>
+<item>
+    <title>Vue3工程化详解</title>
+    <link>http://localhost:1313/17-vue3%E5%B7%A5%E7%A8%8B%E5%8C%96%E8%AF%A6%E8%A7%A3/</link>
+    <pubDate>Mon, 19 Aug 2024 10:00:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/17-vue3%E5%B7%A5%E7%A8%8B%E5%8C%96%E8%AF%A6%E8%A7%A3/</guid>
+    <description><![CDATA[<h1 id="vue3工程化详解">Vue3工程化详解</h1>
+<h2 id="一vue3工程化概述">一、Vue3工程化概述</h2>
+<h3 id="11-什么是工程化">1.1 什么是工程化</h3>
+<p>Vue3工程化是指使用现代化的工具链和最佳实践来构建、管理和维护Vue3应用程序的过程。工程化不仅仅是技术选择，更是一种开发理念和团队协作方式。</p>]]></description>
+</item>
+<item>
+    <title>Vue3性能优化详解</title>
+    <link>http://localhost:1313/16-vue3%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E8%AF%A6%E8%A7%A3/</link>
+    <pubDate>Sun, 18 Aug 2024 10:00:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/16-vue3%E6%80%A7%E8%83%BD%E4%BC%98%E5%8C%96%E8%AF%A6%E8%A7%A3/</guid>
+    <description><![CDATA[<h1 id="vue3性能优化详解">Vue3性能优化详解</h1>
+<h2 id="一vue3性能优化概述">一、Vue3性能优化概述</h2>
+<h3 id="11-为什么需要性能优化">1.1 为什么需要性能优化</h3>
+<p>Vue3在性能方面相比Vue2有了显著提升，但在大型应用中，性能优化仍然是必不可少的：</p>
+<p><strong>性能问题的影响：</strong></p>
+<ul>
+<li>用户体验差：页面加载慢、交互卡顿</li>
+<li>资源消耗大：占用过多内存和CPU</li>
+<li>SEO不友好：影响搜索引擎排名</li>
+<li>转化率低：用户流失率增加</li>
+</ul>
+<p><strong>Vue3的性能优势：</strong></p>]]></description>
+</item>
+<item>
+    <title>Vue3混入和插件详解</title>
+    <link>http://localhost:1313/15-vue3%E6%B7%B7%E5%85%A5%E5%92%8C%E6%8F%92%E4%BB%B6%E8%AF%A6%E8%A7%A3/</link>
+    <pubDate>Sat, 17 Aug 2024 10:00:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/15-vue3%E6%B7%B7%E5%85%A5%E5%92%8C%E6%8F%92%E4%BB%B6%E8%AF%A6%E8%A7%A3/</guid>
+    <description><![CDATA[<h1 id="vue3混入和插件详解">Vue3混入和插件详解</h1>
+<h2 id="一混入mixins概述">一、混入(Mixins)概述</h2>
+<h3 id="11-什么是混入">1.1 什么是混入</h3>
+<p>混入是Vue提供的一种灵活方式，用于分发组件中可复用的功能。一个混入对象可以包含任意组件选项。当组件使用混入对象时，所有混入对象的选项将被&quot;混合&quot;进入该组件本身的选项。</p>]]></description>
+</item>
+<item>
+    <title>Vue3自定义指令详解</title>
+    <link>http://localhost:1313/14-vue3%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E4%BB%A4%E8%AF%A6%E8%A7%A3/</link>
+    <pubDate>Fri, 16 Aug 2024 10:00:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/14-vue3%E8%87%AA%E5%AE%9A%E4%B9%89%E6%8C%87%E4%BB%A4%E8%AF%A6%E8%A7%A3/</guid>
+    <description><![CDATA[<h1 id="vue3自定义指令详解">Vue3自定义指令详解</h1>
+<h2 id="一自定义指令概述">一、自定义指令概述</h2>
+<h3 id="11-什么是自定义指令">1.1 什么是自定义指令</h3>
+<p>自定义指令是Vue3提供的强大功能，允许我们封装DOM操作的底层逻辑。当内置指令无法满足需求时，我们可以创建自定义指令来实现特定的DOM操作。</p>]]></description>
+</item>
+<item>
+    <title>Vue3生命周期详解</title>
+    <link>http://localhost:1313/13-vue3%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E8%AF%A6%E8%A7%A3/</link>
+    <pubDate>Thu, 15 Aug 2024 10:00:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/13-vue3%E7%94%9F%E5%91%BD%E5%91%A8%E6%9C%9F%E8%AF%A6%E8%A7%A3/</guid>
+    <description><![CDATA[<h1 id="vue3生命周期详解">Vue3生命周期详解</h1>
+<h2 id="概述">概述</h2>
+<p>Vue3生命周期是组件从创建到销毁的整个过程，包括初始化、数据绑定、DOM操作、更新和销毁等阶段。理解生命周期对于开发高质量的Vue应用至关重要，它允许我们在合适的时机执行相应的逻辑。</p>]]></description>
+</item>
+<item>
+    <title>Vue3状态管理详解</title>
+    <link>http://localhost:1313/12-vue3%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86%E8%AF%A6%E8%A7%A3/</link>
+    <pubDate>Wed, 14 Aug 2024 10:00:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/12-vue3%E7%8A%B6%E6%80%81%E7%AE%A1%E7%90%86%E8%AF%A6%E8%A7%A3/</guid>
+    <description><![CDATA[<h1 id="vue3状态管理详解">Vue3状态管理详解</h1>
+<h2 id="概述">概述</h2>
+<p>状态管理是Vue应用开发中的重要概念，用于管理跨组件共享的状态。Vue3提供了多种状态管理方案，从简单的响应式对象到完整的状态管理库。本篇文章将详细介绍Vue3中的各种状态管理方案及其最佳实践。</p>]]></description>
+</item>
+<item>
+    <title>Vue3路由详解</title>
+    <link>http://localhost:1313/11-vue3%E8%B7%AF%E7%94%B1%E8%AF%A6%E8%A7%A3/</link>
+    <pubDate>Tue, 13 Aug 2024 10:00:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/11-vue3%E8%B7%AF%E7%94%B1%E8%AF%A6%E8%A7%A3/</guid>
+    <description><![CDATA[<h1 id="vue3路由详解">Vue3路由详解</h1>
+<h2 id="概述">概述</h2>
+<p>Vue Router是Vue.js的官方路由库，专门用于构建单页应用（SPA）。它允许我们在不重新加载页面的情况下，通过不同的URL路径来切换不同的视图组件，提供流畅的用户体验。</p>]]></description>
+</item>
+<item>
+    <title>Vue3组合式API详解</title>
+    <link>http://localhost:1313/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/</link>
+    <pubDate>Mon, 12 Aug 2024 10:00:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/10-vue3%E7%BB%84%E5%90%88%E5%BC%8Fapi%E8%AF%A6%E8%A7%A3/</guid>
+    <description><![CDATA[<h1 id="vue3组合式api详解">Vue3组合式API详解</h1>
+<h2 id="概述">概述</h2>
+<p>Vue3组合式API（Composition API）是一种新的组织组件逻辑的方式，它提供更灵活、更强大的代码组织方式，特别适合复杂组件和逻辑复用。与传统的Options API相比，组合式API让相关逻辑可以集中在一起，提高了代码的可维护性和复用性。</p>]]></description>
+</item>
+<item>
+    <title>Vue3组件基础详解</title>
+    <link>http://localhost:1313/09-vue3%E7%BB%84%E4%BB%B6%E5%9F%BA%E7%A1%80%E8%AF%A6%E8%A7%A3/</link>
+    <pubDate>Sun, 11 Aug 2024 10:00:00 &#43;0800</pubDate>
+    <author>Author</author>
+    <guid>http://localhost:1313/09-vue3%E7%BB%84%E4%BB%B6%E5%9F%BA%E7%A1%80%E8%AF%A6%E8%A7%A3/</guid>
+    <description><![CDATA[<h1 id="vue3组件基础详解">Vue3组件基础详解</h1>
+<h2 id="概述">概述</h2>
+<p>Vue3组件是构建现代Web应用的核心概念。组件是独立的、可复用的Vue实例，每个组件都包含自己的模板、逻辑和样式。通过组件系统，我们可以构建复杂而可维护的用户界面。</p>]]></description>
 </item>
 </channel>
 </rss>

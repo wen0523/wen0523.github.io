@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>JavaScript on Wen&#39;s Blog</title>
+    <link>http://localhost:1313/tags/javascript/</link>
+    <description>Recent content in JavaScript on Wen&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 27 Jul 2024 17:46:45 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript ES6新特性</title>
+      <link>http://localhost:1313/06-javascript-es6%E6%96%B0%E7%89%B9%E6%80%A7/</link>
+      <pubDate>Sat, 27 Jul 2024 17:46:45 +0800</pubDate>
+      <guid>http://localhost:1313/06-javascript-es6%E6%96%B0%E7%89%B9%E6%80%A7/</guid>
+      <description>&lt;h1 id=&#34;javascript-es6新特性&#34;&gt;JavaScript ES6新特性&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-es6概述&#34;&gt;🎯 ES6概述&lt;/h2&gt;&#xA;&lt;p&gt;ES6（ECMAScript 2015）是JavaScript语言的一次重大更新，引入了许多现代化的语法和特性，让JavaScript编程变得更加简洁、高效和可读。ES6的发布标志着JavaScript正式进入现代编程语言的时代。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript字符串处理</title>
+      <link>http://localhost:1313/05-javascript%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86/</link>
+      <pubDate>Tue, 23 Jul 2024 22:32:45 +0800</pubDate>
+      <guid>http://localhost:1313/05-javascript%E5%AD%97%E7%AC%A6%E4%B8%B2%E5%A4%84%E7%90%86/</guid>
+      <description>&lt;h1 id=&#34;javascript字符串处理&#34;&gt;JavaScript字符串处理&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-字符串概述&#34;&gt;🎯 字符串概述&lt;/h2&gt;&#xA;&lt;p&gt;字符串是JavaScript中最常用的数据类型之一，用于表示文本数据。JavaScript中的字符串是不可变的，这意味着一旦创建，就不能修改字符串的内容，任何操作都会返回新的字符串。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript对象与数组</title>
+      <link>http://localhost:1313/04-javascript%E5%AF%B9%E8%B1%A1%E4%B8%8E%E6%95%B0%E7%BB%84/</link>
+      <pubDate>Sat, 20 Jul 2024 20:22:45 +0800</pubDate>
+      <guid>http://localhost:1313/04-javascript%E5%AF%B9%E8%B1%A1%E4%B8%8E%E6%95%B0%E7%BB%84/</guid>
+      <description>&lt;h1 id=&#34;javascript对象与数组&#34;&gt;JavaScript对象与数组&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-对象与数组概述&#34;&gt;🎯 对象与数组概述&lt;/h2&gt;&#xA;&lt;p&gt;对象和数组是JavaScript中最重要的数据结构，它们让我们能够组织和操作复杂的数据。对象用于存储键值对，数组用于存储有序列表。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript函数详解</title>
+      <link>http://localhost:1313/03-javascript%E5%87%BD%E6%95%B0%E8%AF%A6%E8%A7%A3/</link>
+      <pubDate>Mon, 15 Jul 2024 10:42:15 +0800</pubDate>
+      <guid>http://localhost:1313/03-javascript%E5%87%BD%E6%95%B0%E8%AF%A6%E8%A7%A3/</guid>
+      <description>&lt;h1 id=&#34;javascript函数详解&#34;&gt;JavaScript函数详解&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-什么是函数&#34;&gt;🎯 什么是函数？&lt;/h2&gt;&#xA;&lt;p&gt;函数是JavaScript中的一等公民，它是可重复使用的代码块，可以接收输入参数，执行特定任务，并返回结果。函数是模块化编程的基础，让代码更加清晰、可维护。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript流程控制</title>
+      <link>http://localhost:1313/02-javascript%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/</link>
+      <pubDate>Mon, 08 Jul 2024 18:12:35 +0800</pubDate>
+      <guid>http://localhost:1313/02-javascript%E6%B5%81%E7%A8%8B%E6%8E%A7%E5%88%B6/</guid>
+      <description>&lt;h1 id=&#34;javascript流程控制&#34;&gt;JavaScript流程控制&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-什么是流程控制&#34;&gt;🔄 什么是流程控制？&lt;/h2&gt;&#xA;&lt;p&gt;流程控制是编程中的核心概念，它决定了代码的执行顺序。通过流程控制，我们可以让程序根据不同的条件执行不同的代码块，或者重复执行某些操作。&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript入门基础</title>
+      <link>http://localhost:1313/01-javascript%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/</link>
+      <pubDate>Thu, 04 Jul 2024 14:32:59 +0800</pubDate>
+      <guid>http://localhost:1313/01-javascript%E5%85%A5%E9%97%A8%E5%9F%BA%E7%A1%80/</guid>
+      <description>&lt;h1 id=&#34;javascript入门基础&#34;&gt;JavaScript入门基础&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-什么是javascript&#34;&gt;🌟 什么是JavaScript？&lt;/h2&gt;&#xA;&lt;p&gt;JavaScript是一种轻量级的编程语言，最初是为了给网页增加交互性而设计的。现在它已经成为Web开发的核心技术之一，与HTML和CSS一起构成了现代Web开发的三大支柱。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

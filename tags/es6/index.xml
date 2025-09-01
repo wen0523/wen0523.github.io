@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ES6 on Wen&#39;s Blog</title>
+    <link>http://localhost:1313/tags/es6/</link>
+    <description>Recent content in ES6 on Wen&#39;s Blog</description>
+    <generator>Hugo</generator>
+    <language>zh-CN</language>
+    <lastBuildDate>Sat, 27 Jul 2024 17:46:45 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/es6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript ES6新特性</title>
+      <link>http://localhost:1313/06-javascript-es6%E6%96%B0%E7%89%B9%E6%80%A7/</link>
+      <pubDate>Sat, 27 Jul 2024 17:46:45 +0800</pubDate>
+      <guid>http://localhost:1313/06-javascript-es6%E6%96%B0%E7%89%B9%E6%80%A7/</guid>
+      <description>&lt;h1 id=&#34;javascript-es6新特性&#34;&gt;JavaScript ES6新特性&lt;/h1&gt;&#xA;&lt;h2 id=&#34;-es6概述&#34;&gt;🎯 ES6概述&lt;/h2&gt;&#xA;&lt;p&gt;ES6（ECMAScript 2015）是JavaScript语言的一次重大更新，引入了许多现代化的语法和特性，让JavaScript编程变得更加简洁、高效和可读。ES6的发布标志着JavaScript正式进入现代编程语言的时代。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
